@@ -1,0 +1,126 @@
+	<!DOCTYPE html>
+
+    <html>
+	<head>
+	<title> Koa Surf Camp </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="KoaSurfCampCSS">
+	
+	</head>	
+	
+		<body>	
+		
+		<div id="wrapper">
+				
+		<!--this is the menu under header-->
+		<div id="topnav">
+	
+		<ul>	
+
+		<!-- Add font awesome menu options -->
+		<li><form>
+		<input type="text" name="search" placeholder="Search..">
+		</form></li>
+		  <li><a class="wordsm" <a href="D:\HTML training\isanana surfcamp web\KoaSurfCampContact">Contact</a></li>
+		  <li><a class="wordsm" <a href="D:\HTML training\isanana surfcamp web\KoaSurfCampNews">Packages</a></li>
+          <li><a class="wordsm" <a href="D:\HTML training\isanana surfcamp web\KoaSurfCampAbout">About</a></li>
+		  <li style="float:left"><a class="icon" <a href="D:\HTML training\isanana surfcamp web\KoaSurfCampMain"> <img src="D:\HTML training\isanana surfcamp web/surficon50px.png"> </a></li>
+		<!--http://www.hyperlite.com/images/surf-icon-standard.png-->
+		<!--http://s3-us-west-2.amazonaws.com/feedspotfeed/4535477.jpg-->
+		</ul>
+		
+		</div>
+		
+		<div id="header">
+		
+		<img src="D:\HTML training\isanana surfcamp web/girlsurfingpictures.png" style="width:100%">
+		<!--<div class="textA">BE THE MASTER OF THE WAVES</div>-->
+		</div>
+		
+		<div id="main">
+		
+
+		
+		<div class="maininfo">
+		
+		<img src="D:\HTML training\isanana surfcamp web/surficon100colored.png">
+		
+		<h1>Packages</h1>
+		<h2>best lesson packages</h2>
+		
+		<div class="col-container">
+  <div class="col" style="background:#ccc">
+    <h2>5 Lessons</h2>
+    <p>Save $50 dollars</p>
+    <p>Create custom goals</p>
+  </div>
+
+  <div class="col" style="background:#fd9300">
+    <h2>10 Lessons</h2>
+    <p>Save $125 dollars</p>
+    <p>Create custom goals</p>
+    <p>Progress tracking</p>
+  </div>
+
+  <div class="col" style="background:#ccc">
+    <h2>15 Lessons</h2>
+    <p>Save $200 dollars</p>
+    <p>Create custom goals</p>
+	<p>Progress tracking</p>
+	<p>Koa swag pack</p>
+  </div>
+  
+  <div class="col" style="background:#7dbabd">
+    <h2>20 Lessons</h2>
+    <p>Save $275 dollars</p>
+    <p>Create custom goals</p>
+	<p>Progress tracking</p>
+	<p>Koa swag pack</p>
+	<p> Video analysis session</p>
+  </div>
+  
+</div>
+
+
+<h1>LESSON PACKAGES</h1>
+
+<p>• Surf More & Spend Less! </p>
+
+<p>• Most Economical Option </p>
+
+<p>• All Skill Levels - Novice to Advanced</p>
+
+<p>• Curriculum is Completely Customizable</p>
+
+<p>• Packages Don't Expire!</p>
+
+<p>• Best Option To Accelerate Your Surfing in the shortest period of time</p>
+
+<p>• We Provide You With Goals to Guarantee Results</p>
+
+<p>• Track Progress Along The Way</p>
+
+<p>• Email Support - Reach Out with All of your Surfing Questions!</p>
+
+<p>• Phone Support - We'll Schedule Calls to Discuss your Progress and Help You Continue to Improve</p>
+
+<p>• Receive Supplemental Exercises To Work On at Home</p>
+
+<p>• Access to Helpful Instructional Surf Videos</p>
+
+<p>• Koa Swag Bag Provided to 15 & 20 Packs</p>
+
+<p>• Video Analysis for 20 Pack - One Session Recored and Reviewed with Locals Owner. Extremely Helpful and Productive!</p>
+
+<p>• Package to Be Used by One Person</p>
+
+<p>• Students May Upgrade Package after Two Lessons</p>
+
+		</div>
+		</div>
+		</div>
+		
+		</body>
+		</html>
+ 

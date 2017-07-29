@@ -1,0 +1,69 @@
+	<!DOCTYPE html>
+
+    <html>
+	<head>
+	<title> Koa Surf Camp </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="KoaSurfCampCSS">
+	
+	</head>	
+	
+		<body>	
+
+		<div id="wrapper">
+				
+		<!--this is the menu under header-->
+		<div id="topnav">
+	
+		<ul>	
+
+		<!-- Add font awesome menu options -->
+		<li><form>
+		<input type="text" name="search" placeholder="Search..">
+		</form></li>
+		  <li><a class="wordsm" <a href="D:\HTML training\isanana surfcamp web\KoaSurfCampContact">Contact</a></li>
+		  <li><a class="wordsm" <a href="D:\HTML training\isanana surfcamp web\KoaSurfCampNews">Packages</a></li>
+          <li><a class="wordsm" <a href="D:\HTML training\isanana surfcamp web\KoaSurfCampAbout">About</a></li>
+		  <li style="float:left"><a class="icon" <a href="D:\HTML training\isanana surfcamp web\KoaSurfCampMain"> <img src="D:\HTML training\isanana surfcamp web/surficon50px.png"> </a></li>
+		<!--http://www.hyperlite.com/images/surf-icon-standard.png-->
+		<!--http://s3-us-west-2.amazonaws.com/feedspotfeed/4535477.jpg-->
+		</ul>
+		
+		</div>
+		
+		
+		<div id="header">
+		
+		<img src="D:\HTML training\isanana surfcamp web/surfabout.png" style="width:100%">
+		<!--<div class="textA">BE THE MASTER OF THE WAVES</div>-->
+		</div>
+		
+
+		
+		<div id="main">	
+		<div class="maininfo">
+		
+		<img src="D:\HTML training\isanana surfcamp web/surficon100colored.png">
+		
+		<h1>Welcome to Koa Surf Camp</h1>
+		<h2>Fun and affordable surf camp</h2>
+		
+		
+		<p>Koa surf camp, offers fun, unique, and affordable way to adventure.
+		Plan your surfing trip with us and we will ensure to bring you the most unforgettable 
+		and memorable experience. For surfers who are looking
+		for affordable adventures, and intimate private hideaway place to stay in the heart of Tamarindo, Costa Rica,
+		Koa surfer camp is the answer. Surf here….</p>
+
+		<p>A brand new surf camp as the first enjoyable surfing style is closely located to beaches, 400m to Tamarindo Beach, 7 km to Grande Beach, 
+		and Conchal Beach 12km.  Endless and enchanting views from the top is a perfect spot for admiring beautiful panoramic nature either 
+		awaiting gorgeous sunset to come, deeply breathing fresh air in paddy field, and enjoying Costa Rican surroundings’ harmony.</p>
+		
+		</div>
+		</div>
+		</div>
+		
+		</body>
+		</html>
+ 
