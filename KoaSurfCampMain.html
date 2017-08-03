@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title> Koa Surf Camp </title>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="KoaSurfCampCSS">
+	
+</head>	
+		
+<body>	
+
+
+		<!--this is the body of the web page-->
+		<div id="wrapper">
+				
+		<!--this is the menu above header-->
+		<div id="topnav">
+	
+	
+		<!--menu options -->
+		<ul>	
+		<li><form>
+		<input type="text" name="search" placeholder="Search..">
+		</form></li>
+		  <li><a class="wordsm" <a href="D:\HTML training\isanana surfcamp web\KoaSurfCampContact">Contact</a></li>
+		  <li><a class="wordsm" <a href="D:\HTML training\isanana surfcamp web\KoaSurfCampNews">Packages</a></li>
+		  <li><div class="dropdown">
+		<button class="dropbtn">Lessons</button>
+		<div class="dropdown-content">
+		<a href="D:\HTML training\isanana surfcamp web\KoaSurfCampLessons">Group Lesson</a>
+		<a href="#">Private Lesson</a>
+		<a href="#">Semi-Private Lesson</a>
+		</div>
+		</div></li>
+          <li><a class="wordsm" <a href="D:\HTML training\isanana surfcamp web\KoaSurfCampAbout">About</a></li>
+		  <li style="float:left"><a class="icon" <a href="D:\HTML training\isanana surfcamp web\KoaSurfCampMain"> <img src="D:\HTML training\isanana surfcamp web/surficon50px.png"> </a></li>
+		<!--http://www.hyperlite.com/images/surf-icon-standard.png-->
+		<!--http://s3-us-west-2.amazonaws.com/feedspotfeed/4535477.jpg-->
+		</ul>
+		</div>
+			
+
+		 <!--this is the top of the page, where the slide show is-->
+		<div id="header">
+		<div class="slideshow-container">
+
+		<div class="mySlides fade">
+		<div class="numbertext">1 / 4</div>
+		<img src="D:\HTML training\isanana surfcamp web/water.png" style="width:100%">
+		<div class="textA">BE THE MASTER OF THE WAVES</div>
+		</div>
+
+		<div class="mySlides fade">
+		<div class="numbertext">2 / 4</div>
+		<img src="D:\HTML training\isanana surfcamp web/air.png" style="width:100%">
+		<div class="text">HAVE A ONE OF A KIND SUMMER</div>
+		</div>
+
+		<div class="mySlides fade">
+		<div class="numbertext">3 / 4</div>
+		<img src="D:\HTML training\isanana surfcamp web/fun.png" style="width:100%">
+		<div class="textA">BE INVOLVED IN A COMMUNITY</div>
+		</div>
+
+		<div class="mySlides fade">
+		<div class="numbertext">4 / 4</div>
+		<img src="D:\HTML training\isanana surfcamp web/familyfun.png" style="width:100%">
+		<div class="text">SAVE FUN WITH THE ENTIRE FAMILY</div>
+		</div>
+
+		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+		<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+	</div>
+	<br>
+
+	<div style="text-align:center">
+	<span class="dot" onclick="currentSlide(1)"></span> 
+	<span class="dot" onclick="currentSlide(2)"></span> 
+	<span class="dot" onclick="currentSlide(3)"></span> 
+	<span class="dot" onclick="currentSlide(4)"></span> 
+	</div>
+		</div>
+				
+		<!--this is where the main information is-->
+		<div id="main">
+			
+		<div class="maininfo">
+		<h1>Welcome to Koa Surf Camp</h1>
+		<h2>Fun and affordable surf camp</h2>
+		
+		
+		<p>Koa surf camp, offers fun, unique, and affordable way to adventure.
+		Plan your surfing trip with us and we will ensure to bring you the most unforgettable 
+		and memorable experience. For surfers who are looking
+		for affordable adventures, and intimate private hideaway place to stay in the heart of Tamarindo, Costa Rica,
+		Koa surfer camp is the answer. 
+
+		<p>A brand new surf camp as the first enjoyable surfing style is closely located to beaches, 400m to Tamarindo Beach, 7 km to Grande Beach, 
+		and Conchal Beach 12km.  Endless and enchanting views from the top is a perfect spot for admiring beautiful panoramic nature either 
+		awaiting gorgeous sunset to come, deeply breathing fresh air in paddy field, and enjoying Costa Rican surroundings’ harmony.</p>
+		
+		
+		<a href="D:\HTML training\isanana surfcamp web\KoaSurfCampAbout" class="button">Meet our Team </a>
+		
+		
+		</div>
+		
+		
+		<!--bottom of the page-->
+		<div id="footer">
+		
+		
+		<img src="D:\HTML training\isanana surfcamp web/surficon100colored.png">
+		
+		<p>Tamarindo, Costa Rica </p>
+		<p>+506.5554.8888</p>
+		<p>info@koasurfcamp.com</p>
+			
+		<!-- Addded awesome social media icons -->		
+		<a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+		<a href="https://twitter.com/" class="fa fa-twitter"></a>
+		<a href="https://www.instagram.com/accounts/login/" class="fa fa-instagram"></a>
+		
+		<div class="copyright">
+		<p>Copyright © 2017 Isadora Martinez All rights reserved.</p>
+		
+		</div>
+		
+		
+<!--JavaScript for the slide show-->
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+</div>
+</body>
+</html>
